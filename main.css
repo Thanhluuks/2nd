@@ -1,0 +1,135 @@
+
+/* Reset style */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root {
+    --text-color: #4d5558;
+    --subtext-color: #a0a5a9;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+    max-width: 100vw;
+}
+
+.header__logo {
+    background-image: url('./images/bg-header-desktop.png');
+    /* background-size: 100%; */
+    height: 363px;
+    position: relative;
+    margin-bottom: 70px;
+}
+.header__logo-infor {
+    width: 100%;
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+    text-align: center;
+    top: 120px;
+    width: 700px;
+    /* transform: translateY(-50%); */
+
+}
+
+.content__title {
+    margin-top: 78px;
+    font-weight: 600;
+    font-size: 42px;
+    color: var(--text-color);
+}
+
+.content__text {
+    color: var(--subtext-color);
+}
+/* BUTTON STYLE */
+
+.btn__download {
+    display: flex;
+    justify-content: center;
+}
+.btn {
+    outline: none;
+    padding: 12px 0px;
+    min-width: 200px;
+    border-radius: 24px;
+    color: #fff;
+    border: none;
+}
+.btn.download--ios {
+    background-color:  #26bba5;
+}
+.btn.download--mac {
+    background-color: #6174ff;
+    margin-left: 10px;
+}
+
+.container__title {
+    display: block;
+    text-align: center;
+    margin: 160px auto 60px;
+    width: 700px;
+    
+
+
+}
+.title__name {
+    display: block;
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--text-color);
+    margin-bottom: 34px;
+}
+
+.title__text {
+    color: var(--subtext-color);
+}
+.container__body {
+    display: flex;
+    justify-content: center;
+}
+.img__pc {
+    width: 100%;
+
+}
+.img__pc img {
+    width: 100%;
+    transform: translateX(-24px);
+}
+.container__body-contain {
+    margin-top: 70px;
+    transform: translateX(100px);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    justify-content: space-around;
+
+}
+.container__title--set {
+    text-align: left;
+    width: 340px;
+}
+.img-full {
+    text-align: center;
+}
+/* Function style */
+.container__function{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 160px;
+    
+}
+.function__creat {
+    width: 330px;
+    text-align: center;
+}
+.title-s {
+  font-size: 24px;
+  color: var(--text-color);
+  font-weight: 700;
+  margin: 50px 0 30px 0;
+}
