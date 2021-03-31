@@ -58,13 +58,21 @@ body {
     border-radius: 24px;
     color: #fff;
     border: none;
+    cursor: pointer;
 }
 .btn.download--ios {
     background-color:  #26bba5;
 }
+.btn.download--ios:hover {
+    background-color: #5dccbb !important;
+
+}
 .btn.download--mac {
     background-color: #6174ff;
     margin-left: 10px;
+}
+.btn.download--mac:hover {
+    background-color: #8896ff;
 }
 
 .container__title {
@@ -132,4 +140,61 @@ body {
   color: var(--text-color);
   font-weight: 700;
   margin: 50px 0 30px 0;
+}
+
+.container__branches {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 40px;
+}
+
+/* Footer */
+.footer {
+    background-color: #f5f6f8;
+    height: 150px;
+    margin-top: 140px;
+    display: flex;
+    align-items: center;
+}
+.img_logo {
+    width: 60px;
+    margin: 0 130px;
+}
+.footer__moreinfo {
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    flex: 1;
+    margin-right: 295px;
+}
+.moreinfor_col {
+    display: flex;
+    flex-direction: column;
+
+    
+}
+.moreinfor_items {
+    width: 100%;
+    margin: 12px 0px;
+    text-decoration: none;
+    color: var(--text-color);
+}
+.moreinfor_items:hover {
+    cursor: pointer;
+    color: #5b9f92;
+}
+.footer__contact{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    margin-right: 145px;
+}
+.contact-icon {
+    margin: 0 15px;
+}
+.contact-icon:hover {
+    cursor: pointer;
+    filter: invert(57%) sepia(49%) saturate(619%) hue-rotate(121deg) brightness(93%) contrast(90%);
+    
 }
