@@ -1,25 +1,33 @@
 @media screen and (max-width: 400px) {
-    
+    .container {
+        padding: 0 5% 0 5%;
+    }
     .container__title--set,
     .container__title ,
     .header__logo-infor {
-        width: 90vw;
+        width: 100%;
         text-align: center;
     }
     .content__title {
         font-size: 30px;
+        width: 100%;
     }
     .container__body,
     .container__body-contain {
         display: block;
-        transform: translateX(0px);
+        padding-right:  0px;
+        padding-left:  0px;
     }
     .container__title {
         margin: 160px 0 60px;
     }
     .img__pc img {
+        transform: translateX(0px);
+        margin: auto;
+    }
+    .img__pc {
         width: 90vw;
-        transform: translateX(24px);
+        display: flex;
     }
     .btn__download {
         flex-direction: column;
@@ -60,8 +68,8 @@
     .moreinfor_items {
         margin: 18px auto;
     }
-    .moreinfor_col {
-
+    .img_logo {
+        padding-top: 40px;
     }
     .footer__contact {
         

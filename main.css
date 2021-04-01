@@ -101,7 +101,7 @@ body {
     justify-content: center;
 }
 .img__pc {
-    width: 100%;
+    max-width: 100%;
 
 }
 .img__pc img {
@@ -110,12 +110,14 @@ body {
 }
 .container__body-contain {
     margin-top: 70px;
-    transform: translateX(100px);
-    width: 100%;
+    /* width: 100%; */
     display: flex;
     flex-direction: column;
+    /* align-items: center; */
     height: 350px;
     justify-content: space-around;
+    padding-left: 100px;
+    padding-right: 200px;
 
 }
 .container__title--set {
